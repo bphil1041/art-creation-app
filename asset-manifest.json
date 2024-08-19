@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/art-creation-app/static/css/main.6fbcaaa3.css",
+    "main.js": "/art-creation-app/static/js/main.876aa740.js",
+    "static/js/453.b04b7cf2.chunk.js": "/art-creation-app/static/js/453.b04b7cf2.chunk.js",
+    "index.html": "/art-creation-app/index.html",
+    "main.6fbcaaa3.css.map": "/art-creation-app/static/css/main.6fbcaaa3.css.map",
+    "main.876aa740.js.map": "/art-creation-app/static/js/main.876aa740.js.map",
+    "453.b04b7cf2.chunk.js.map": "/art-creation-app/static/js/453.b04b7cf2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6fbcaaa3.css",
+    "static/js/main.876aa740.js"
+  ]
+}
