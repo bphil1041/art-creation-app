@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Toolbar = ({ color, setColor, lineWidth, setLineWidth, tool, setTool, handleUndo }) => {
-    const tools = ['brush', 'eraser', 'spray', 'paintBucket'];
+const Toolbar = ({ color, setColor, lineWidth, setLineWidth, tool, setTool, onUndo }) => {
+    const tools = ['brush', 'eraser', 'spray', 'paint-bucket'];
 
     return (
         <div className="toolbar">
@@ -26,12 +26,7 @@ const Toolbar = ({ color, setColor, lineWidth, setLineWidth, tool, setTool, hand
                 value={lineWidth}
                 onChange={(e) => setLineWidth(e.target.value)}
             />
-            <button
-                onClick={handleUndo} // Call handleUndo on click
-                style={{ backgroundColor: 'lightblue' }}
-            >
-                Undo
-            </button>
+            <button onClick={onUndo}>Undo</button>
         </div>
     );
 }
